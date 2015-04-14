@@ -1,0 +1,9 @@
+<?php
+/**
+ * Implements hook_views_api().
+ */
+function plainurl_youtubefield_views_api() {
+  return array("version" => "3.0");
+}
+
+?>

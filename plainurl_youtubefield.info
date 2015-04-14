@@ -1,0 +1,9 @@
+name = plainurl_youtubefield
+description = Handler Views URL youtube_field Print Plain Text URL.
+core = 7.x
+version = "7.x-1.0"
+package = Views
+dependencies[] = views
+dependencies[] = youtube
+files[] = plainurl_youtubefield.module
+files[] = handlers/plainurl_youtubefield_handler_city.inc
